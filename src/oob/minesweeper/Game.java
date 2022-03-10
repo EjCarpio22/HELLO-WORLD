@@ -1,4 +1,4 @@
-import oob.minesweeper.Window;
+package oob.minesweeper;
 
 public class Game {
 
@@ -7,7 +7,7 @@ public class Game {
     public static final int MineCount = 10;
 
     public Game (){
-        new Window(Width,Height,SizeGrid,"Minesweeper Game",Game);
+        new Window(Width,Height,SizeGrid,"Minesweeper Game");
 
     }
     public static void main(String[] args) {
